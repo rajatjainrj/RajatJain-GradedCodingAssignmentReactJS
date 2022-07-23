@@ -1,0 +1,32 @@
+.heading {
+    font-weight: bold;
+}
+
+.content-img {
+    position: relative;
+}
+
+.content-img div {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.content-img:hover {
+    cursor: pointer;
+}
+
+.content-img:hover div {
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;
+}

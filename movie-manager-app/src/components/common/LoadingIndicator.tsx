@@ -3,7 +3,7 @@ import {Spinner} from "react-bootstrap";
 
 type Props = {
     size: 'small' | 'medium' | 'large',
-    message : string
+    message: string
 }
 
 const sizeMap = {
@@ -34,7 +34,7 @@ const LoadingIndicator = ({size, message}: Props) => {
 
 LoadingIndicator.defaultProps = {
     size: 'medium',
-    message:'Loading...'
+    message: 'Loading...'
 }
 
 export default LoadingIndicator;

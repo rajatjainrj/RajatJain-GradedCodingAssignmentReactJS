@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import {ReactNode} from 'react';
 
 import './Dialog.css';
 
@@ -7,8 +7,8 @@ type Props = {
     children: ReactNode
 }
 
-const Dialog = ( { show, children } : Props ) => {
-    if( show === false ) {
+const Dialog = ({show, children}: Props) => {
+    if (show === false) {
         return null;
     }
 
